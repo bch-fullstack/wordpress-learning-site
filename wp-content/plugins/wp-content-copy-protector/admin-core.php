@@ -80,7 +80,7 @@ if($post_action == 'update')
 			'home_css_protection' => $home_css_protection, // premium option
 			'posts_css_protection' => 'No', // premium option
 			'pages_css_protection' => 'No', // premium option
-			'exclude_admin_from_protection' => $exclude_admin_from_protection, // premium option
+			'exclude_admin_from_protection' => 'No', // premium option
 			'img' => '', // premium option
 			'a' => '', // premium option
 			'pb' => '', // premium option
