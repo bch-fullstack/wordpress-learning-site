@@ -8,4 +8,4 @@ Author: The sample team
 Author URI: http://we-have-no-website.com
 Text Domain: health-check
 Domain Path: /languages
-*/
+*/ 
