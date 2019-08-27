@@ -28,7 +28,15 @@ add_action('login_head', 'pth_hello_world');
  * print out hello world message
  */
 function pth_hello_world() {
-    echo '<h1>hello world</h1>';
+    echo 'Hello World';
+}
+
+add_action('login_enqueue_scripts', 'pth_modify_stylesheet_loginpage');
+/**
+ * add custom-stylesheet for login page
+ */
+function pth_modify_stylesheet_loginpage() {
+    wp_enqueue_style('inject-custom-stylesheet', plugin_dir_url(__FILE__) . 'css/custom-stylesheet.css');
 }
 
 // add_action('login_head', 'pth_remove_shake_js');
